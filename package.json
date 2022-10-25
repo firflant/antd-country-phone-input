@@ -1,6 +1,6 @@
 {
   "license": "MIT",
-  "name": "antd-country-phone-input",
+  "name": "@frontcraft/antd-country-phone-input",
   "version": "4.4.0",
   "description": "Country phone input component as standard Ant.Design form item",
   "author": "wangsijie <i@sijie.wang>",
