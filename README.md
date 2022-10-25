@@ -1,5 +1,7 @@
 # antd-country-phone-input
 
+> This is a temporary publication of a fork of [antd-country-phone-input](https://www.npmjs.com/package/antd-country-phone-input) created for a purpose of Pull Request.
+
 Country phone input component as standard Ant.Design form item.
 
 [![dumi][dumi-image]][dumi-url] [![NPM version][npm-image]][npm-url] [![npm download][download-image]][download-url] [![build status][github-actions-image]][github-actions-url]
@@ -20,7 +22,9 @@ Country phone input component as standard Ant.Design form item.
 ```bash
 npm install antd-country-phone-input world_countries_lists
 ```
+
 or
+
 ```bash
 yarn add antd-country-phone-input world_countries_lists
 ```
@@ -28,6 +32,7 @@ yarn add antd-country-phone-input world_countries_lists
 ## Usage
 
 > **Breaking Changes:**
+>
 > 1. To avoid unnecessary encapsulation for different locales, `4.0` lifted areas state up to `ConfigProvider`(based on React Context). You need to put it in the right place(index.js/App.js/...), then all components will have access to the provided config.
 > 2. `Tree Shaking` is supported in `4.1`, you need to install `world_countries_lists` explicitly. Thus, you could customize translation JSON and it is better than `areaMapper` in `ConfigProvider`.
 > 3. `world_countries_lists` updated their file structure from [2.4.0](https://github.com/stefangabos/world_countries/releases/tag/2.4.0): `world_countries_lists/data/en/world.json` -> `world_countries_lists/data/countries/en/world.json`.
@@ -56,12 +61,12 @@ Try it on our website: https://boyuai.github.io/antd-country-phone-input/demos/
 
 ### Value
 
-| Field | Type | Note |
-| --- | ---- | --- |
-| short | string | See [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
-| phoneCode | number |
-| emoji | ReactNode | National flag
-| name | string |
+| Field     | Type      | Note                                                               |
+| --------- | --------- | ------------------------------------------------------------------ |
+| short     | string    | See [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+| phoneCode | number    |
+| emoji     | ReactNode | National flag                                                      |
+| name      | string    |
 
 ### Locale
 
